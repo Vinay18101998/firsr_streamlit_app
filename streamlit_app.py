@@ -1,2 +1,2 @@
-Import streamlit;
-streamlit.title('My Parents new healthy dines');
+import streamlit
+streamlit.title('My Parents new healthy dines')
