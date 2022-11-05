@@ -51,4 +51,4 @@ streamlit.write('Thanks for adding ', fruit_choice)
 #streamlit.write('Thanks for adding ', add_fruit)
 
 my_cur.execute("insert into fruit_load_list values('from streamlit')")
-my_cur.execute("insert into fruit_load_list values('from streamlit')")
+my_cur.execute("delete table fruit_load_list where fruitname='test'")
