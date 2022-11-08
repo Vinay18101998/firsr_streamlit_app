@@ -60,8 +60,8 @@ except URLERROR as e:
 
 
 
-#fruit_choice = streamlit.text_input('What fruit would you like information about?','Jackfruit')
-#streamlit.write('Thanks for adding ', fruit_choice)
+fruit_choice = streamlit.text_input('What fruit would you like information about?','Jackfruit')
+streamlit.write('Thanks for adding ', fruit_choice)
 
  def insert_row_snowflake(new_fruit):
      with my_cnx.cursor() as my_cur:
